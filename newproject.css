@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    
+    display: flex;
+    height: 35vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/home/prafull/Documents/revan_workspace/images/wp2351071-project-manager-wallpapers.jpg);
+}
+
+.logo img{
+    height: 50px;
+    margin:10px ;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+
+}
+
+.links {
+    
+    display: inline;
+    padding:25px ;
+    
+
+}
+.links a{
+    padding: 25px;
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.login {
+   margin-top: 25px;
+
+   
+}
+.login a{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+
+head{
+    display: flex;
+    text-align: center;
+    
+    color: white;
+}
+.head h1{
+    margin-top: 80px;
+    font-size: 25px;
+    color: white;
+}
+.head p{
+    font-size: 15px;
+    color: white;
+}
+.signup{
+    margin-top: 25px;
+    margin-left:400px;
+}
+.signup a{
+    border: 1px solid black;
+    padding: 4px;
+    border-radius:5px ;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+}
+
+.header{
+    display:flex;
+    
+    height: 30vh;
+    background-color:aliceblue;
+    
+ 
+}
+.self{
+    margin-top: 10px;
+    margin-left: 45px;
+}
+
+.self p{
+    margin-top: 10px;
+    font-size: 10px;
+    
+}
+
+.para{
+    margin-top: 10px;
+    margin-left: 200px; ;
+    
+}
+.para p{
+    font-size: 17px;
+    margin-top: 10px;
+}
+.boxes{
+    display: flex;
+    
+    background-color: aliceblue;
+    height: 35vh;
+
+    
+}
+
+.box1{
+    margin-left: 80px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 30px;
+    
+}
+
+
+.box2{
+    margin-left: 200px; 
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 30px;  
+
+}
+.box3{
+    margin-left: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 30px;
+}
+.box1 h4{
+    font-size: 15px;
+    border: 1px solid black;
+   
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.box2 h4{
+    font-size: 14px;
+    border: 1px solid black;
+    
+    border-radius: 10px;
+    padding: 10px;
+}
+.box3 h4{
+    font-size: 15px;
+    border: 1px solid black;
+    
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.box1 p{
+    border: 1px solid black;
+    
+    padding: 10px;
+    border-radius:10px ;
+}
+.box2 p{
+    border: 1px solid black;
+    
+    padding: 10px;
+    border-radius:10px ;
+}
+.box3 p{
+    border: 1px solid black;
+    
+    padding: 10px;
+    border-radius:10px ;
+}
+.more{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/home/prafull/Documents/revan_workspace/images/wp9156906-skilled-professionals-wallpapers.jpg);
+
+    display: flex;
+    height: 30vh;
+    
+}
+.become{
+    margin: 10px;
+    color: white;
+    margin: 40px;
+}
+.become p{
+    font-size: 12px;
+   
+    
+   
+}
+
+.paragraph{
+    margin-top: 40px;
+    margin-left: 300px;
+    color: white;
+
+}
+.summit{
+   
+    display:flex;
+    background-color: aliceblue;
+    height: 40vh;
+       
+}
+.tech{
+    margin: 50px;
+}
+.bootcamp{
+    margin:50px;
+}
+.conference{
+    margin:50px;
+}
+.img1 img{
+    margin-top: 50px;
+    height: 20vh;
+    width: 50%;
+}
+.img2 img{
+    margin-top: 50px;
+    height: 20vh;
+    width: 50%;
+}
+.img3 img{
+    margin-top: 50px;
+    height: 20vh;
+    width: 50%;
+}
+.learnest{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/home/prafull/Documents/revan_workspace/images/wp2351071-project-manager-wallpapers.jpg);
+    display: flex;
+    height: 40vh;
+   
+
+  
+}  
+   
+
+.learn{
+margin: 50px;
+}
+.learn h3{
+   color: blue;
+}
+.learn p{
+    color: white;
+}  
+   
+
+.courses{
+  margin-left: 150px;
+  margin: 50px;
+}
+.courses p{
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+.courses a{
+    text-decoration: none;
+    color: white;
+}
+.institutes{
+    margin-left: 150px;
+    margin: 50px;
+}
+.institutes a{
+    text-decoration: none;
+    color: white;
+}
+.institutes p{
+    font-weight: bold;
+    color: red;
+}
+.follow{
+    margin-left: 100px;
+    display: inline-block;
+    margin: 50px;
+
+}
+.follow p{
+    margin-left: 40px;
+    color: red;
+}
+.follow img{
+    height: 45px;
+}
+.follow  #ig{
+    height: 30px;
+    margin-bottom: 8px;
+    margin-left: 5px;
+}
+
+
+
+@media(max-width:700px){
+    
+}
